@@ -1,0 +1,46 @@
+body {
+    font-size: 50rem;
+}
+
+h1 {
+    font-size: smaller;
+}
+
+
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+      background: yellowgreen;
+      margin: 10px 10%;
+      font-size: 25rem;
+    }
+    
+    figure {
+        display: grid;
+        grid-column: 2;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1020px) {
+    body {
+      background-color: aqua;
+      margin: 20px 10%;
+      max-width: 1500px;
+    }
+    
+    figure {
+      display: grid;
+      grid-column: 3;
+    }
+  }
+  
